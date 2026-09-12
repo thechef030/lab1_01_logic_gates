@@ -1,5 +1,7 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": [
+    "src/logic_gate.v"
+  ],
+  "testbench": "sim/tb_logic_gate_modern.sv",
+  "simulation_top": "tb_logic_gate_modern"
 }
